@@ -1,0 +1,115 @@
+@import "../../../components/Layout/colors/Colors.module.scss";
+.containerFluid {
+  background: $primary-color;
+  color: $white-color;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.container {
+  background: #042b28;
+  color: #ffffff;
+  bottom: 0;
+  min-width: 1700px;
+  width: 100%;
+}
+
+.content {
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  -webkit-line-clamp: 2;
+  color: white;
+  display: -webkit-box;
+  letter-spacing: 0;
+  margin: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: none;
+  letter-spacing: 0.6px;
+}
+
+.para {
+  color: white;
+  display: -webkit-box;
+  letter-spacing: 0;
+  margin: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: none;
+  text-align: left !important;
+}
+
+.footerContainer {
+  font: 500 18px "Poppins", sans-serif;
+  color: $white-color;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  letter-spacing: 0.6px;
+}
+
+.colItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
+
+.colItem a {
+  text-decoration: none;
+  color: $white-color;
+  background: none;
+}
+.colItem a:hover {
+  text-decoration: none;
+  color: $secondary-color;
+  background: none;
+}
+.containerIcon {
+  max-width: 200px;
+}
+
+.colIcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-grow: 1;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
+.colIcon:hover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.colIcon a {
+  text-decoration: none;
+  color: $white-color;
+  background: none;
+}
+.colIcon a:hover {
+  text-decoration: none;
+  color: $secondary-color;
+  background: none;
+}
+.footerLink {
+  text-align: center;
+}
+
+.copyRight {
+  padding: 10px;
+}

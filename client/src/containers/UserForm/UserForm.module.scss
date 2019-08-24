@@ -1,0 +1,42 @@
+@import "../../components/Layout/colors/Colors.module.scss";
+
+.formContainer {
+  position: relative;
+  background: $white-color;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  min-width: 250px !important;
+  margin: 5px;
+  padding: 5px;
+  justify-content: center;
+}
+.Title {
+  text-align: center;
+  padding: 5px;
+}
+.paragraph {
+  text-align: center;
+  padding: 5px;
+}
+
+.link {
+  color: $primary-color !important;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: $primary-color;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}

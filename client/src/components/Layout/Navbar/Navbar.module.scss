@@ -1,0 +1,45 @@
+@import "../../../components/Layout/colors/Colors.module.scss";
+.containerNavbar {
+  position: relative;
+  background: $white-color;
+  box-shadow: 0px 0px 1px 1px rgba(114, 113, 113, 0.096);
+  z-index: 1;
+  top: 0;
+  height: 70px;
+  line-height: 1.5;
+}
+
+.rowNavbar {
+  position: relative;
+  height: 100%;
+}
+.colNavbarRight {
+  position: relative;
+}
+.colNavbarLeft {
+  position: relative;
+}
+.colSidebar {
+  position: relative;
+}
+
+.link {
+  color: $primary-color !important;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: $primary-color;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.containerSideBar {
+  position: fixed;
+  padding: 0px;
+}

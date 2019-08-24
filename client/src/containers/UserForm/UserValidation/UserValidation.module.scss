@@ -1,0 +1,24 @@
+@import "../../../components/Layout/colors/Colors.module.scss";
+
+.inputBox {
+  outline: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 1px solid rgba(128, 128, 128, 0.288);
+  padding: 5px;
+  margin: 5px;
+}
+
+.inputBox::placeholder {
+  background: none;
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.errMsg {
+  color: red;
+  font-size: 14px;
+  padding-left: 0px;
+  padding-right: 0px;
+}

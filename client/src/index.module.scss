@@ -1,0 +1,41 @@
+@import "./components/Layout/colors/Colors.module.scss";
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(238, 235, 227);
+  height: 100%;
+  position: relative;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+// .container {
+//   background: $body-color;
+//   height: 100%;
+// }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #042b28;
+  display: -webkit-box;
+  font-family: gordita, Helvetica, Arial, Verdana, sans-serif;
+  letter-spacing: 0;
+  margin: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: none;
+}

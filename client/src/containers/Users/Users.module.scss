@@ -1,0 +1,39 @@
+@import "../../components/Layout/colors/Colors.module.scss";
+
+.containerUser {
+  position: relative;
+  background: $white-color;
+  padding: 0;
+  padding-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.rowUser .colUser {
+  display: block;
+  width: 100%;
+}
+.wrapper {
+  width: 100%;
+}
+.userInfo {
+  background: $container-color;
+  border-bottom: 4px solid $primary-color;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: $primary-color;
+}
+
+.userInfo {
+  list-style: none;
+  text-decoration: none;
+}
+
+.userInfo li {
+  margin-right: 0.5rem;
+  padding: 0.6rem;
+}
+.btnContainer {
+  max-width: 130px;
+}
